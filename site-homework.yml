@@ -1,0 +1,6 @@
+- hosts: bastion_tower
+  gather_facts: false 
+  become: yes 
+  roles:
+#    - install-tower
+#        - config-tower
