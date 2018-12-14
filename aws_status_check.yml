@@ -1,5 +1,5 @@
-- hosts: tag_instance_filter_three_tier_app_psrivast_redhat_com
-  gather_facts: false
+- hosts: tag_instance_filter_three_tier_app_shilpa_sasi
+  gather_facts: true
   tasks:
   - name: Check the instances status
     wait_for:
